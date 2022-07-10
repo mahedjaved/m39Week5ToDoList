@@ -13,12 +13,12 @@ const App = () => {
     const userList = [
         {
             "id": 1,
-            "task": "Calendar setup",
+            "task": "Task 1",
             "isComplete": false,
         },
         {
             "id": 2,
-            "task": "Morning shower",
+            "task": "Task 2",
             "isComplete": false,
         }
     ];
