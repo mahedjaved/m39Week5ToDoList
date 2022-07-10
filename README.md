@@ -1,5 +1,7 @@
 This repo contains submission for the Week5 Todo List challenges for the CodeNation Master Course 39.
 
+App can be run from :: https://mahedjaved.github.io/m39Week5ToDoList-v1/
+
 # References
 
 > Majority of code inspired from : https://www.educative.io/blog/react-hooks-tutorial-todo-list
