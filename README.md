@@ -9,6 +9,7 @@ App can be run from :: https://mahedjaved.github.io/m39Week5ToDoList-v1/
 # Improvements
 
 > Removed functionality of import .json file and instead use raw from src files
+
 > Added two test in the App.test.js
 
 # Future Plans
