@@ -70,6 +70,8 @@ const App = () => {
     return (
         <div>
             <h1 className="title">My Todo List</h1>
+        
+            <p>V1</p>
 
             <List todolist={mainToDoList} handleClearButton={handleClearButton} handleTaskToggleClick={handleTaskToggleClick} />
 
