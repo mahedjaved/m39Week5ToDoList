@@ -21,6 +21,34 @@ test("Test if two buttons are on the webpage", () => {
 });
 
 
+// TEST 3 --> check if the first button has text clear
+  render(<App />);
+  // use the query search for the buttons
+  let buttons = screen.queryAllByRole("button");
+  expect(buttons[0].text).toBe("Clear");
+
+});
+
+
+// TEST 4 --> check if the second button has text submit
+  render(<App />);
+  // use the query search for the buttons
+  let buttons = screen.queryAllByRole("button");
+  expect(buttons[1].text).toBe("Submit");
+
+});
+
+
+
+// TEST 5 --> check if v1 version of software text is present in the webpage
+test('Test if v1 message appears', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/V1/);
+  expect(linkElement).toBeInTheDocument();
+
+});
+
+
 
 
 
